@@ -1,0 +1,28 @@
+# AWS Credentials (NEVER COMMIT)
+*.csv
+*.pem
+*.key
+.aws/
+credentials
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Personal notes (if you want to keep some private)
+notes/private/
+
+# Screenshots with sensitive data
+screenshots/*-sensitive.*
